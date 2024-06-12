@@ -74,7 +74,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    const socketIo = io("http://localhost:4000");
+    const socketIo = io("https://mini-chat-back-production.up.railway.app/");
 
     socketIo.on("connect", () => {
       console.log("Connected to server");
