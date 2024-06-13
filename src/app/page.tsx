@@ -136,7 +136,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       
-    <div className="flex flex-col h-[90vh] max-h-[90vh] bg-white dark:bg-gray-950 rounded-lg shadow-lg">
+    <div className="flex flex-col h-[90vh] max-h-[90vh] bg-white dark:bg-gray-950 rounded-lg shadow-lg overflow-auto w-64">
       <div className="flex items-center px-4 py-3 border-b border-gray-200 dark:border-gray-800">
         <div className="font-medium">
         <input
